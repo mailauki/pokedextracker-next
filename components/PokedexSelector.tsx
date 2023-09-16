@@ -24,7 +24,7 @@ export default function PokedexSelector() {
 
   return (
     <>
-      <FormControl fullWidth>
+      <FormControl fullWidth disabled>
         <InputLabel id="pokedex-select-label">Select a Pokedex</InputLabel>
         <Select
           labelId="pokedex-select-label"
